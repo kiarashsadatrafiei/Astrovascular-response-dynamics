@@ -1,0 +1,10 @@
+condition,median_S,flag_rate_percent,invalid_percent
+Reference,-0.00324400,4.00000000,0.00000000
+Neural adaptation,-0.00426291,13.33333333,0.00000000
+Fast recruitment failure,0.11025465,100.00000000,0.00000000
+Delayed amplification failure,-0.07256548,100.00000000,0.00000000
+Generalized vascular limitation,-0.00432101,33.33333333,0.00000000
+Latency +1.5 s,0.10302367,100.00000000,0.00000000
+Latency -1.5 s,-0.06731676,100.00000000,0.00000000
+Downward baseline drift,-0.03990560,94.33333333,0.00000000
+Late neural overestimation,-0.08697998,100.00000000,0.00000000

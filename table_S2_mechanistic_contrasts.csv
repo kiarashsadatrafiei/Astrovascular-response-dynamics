@@ -1,0 +1,6 @@
+mechanism,vascular_early,vascular_late,M_clean,delta_S_vs_reference
+Reference,0.81551927,0.99310881,-0.00157601,0.00000000
+Fast recruitment failure,0.45642954,0.61810884,-0.01952373,0.10915118
+Delayed amplification failure,0.76684936,0.87155438,-0.07619871,-0.07075442
+Neural adaptation,0.70199109,0.64286872,-0.00199135,-0.00077318
+Generalized vascular limitation,0.40775964,0.49655441,-0.09414645,-0.00000001

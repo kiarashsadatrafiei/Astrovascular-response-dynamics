@@ -1,0 +1,40 @@
+{
+  "purpose": "Supplementary matched-model computational feasibility (not empirical AD evidence)",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "pandas": "2.2.3",
+  "dt_seconds": 0.1,
+  "sample_stride": 5,
+  "baseline_seconds": 10.0,
+  "recovery_seconds": 60.0,
+  "fir_lags": 101,
+  "fir_smoothness": 0.2,
+  "fir_ridge": 0.0001,
+  "noise_sd": 0.015,
+  "noise_ar1_rho": 0.35,
+  "model_reference_neural": {
+    "tau_n_s": 0.5,
+    "tau_on_s": 10.0,
+    "tau_off_s": 15.0,
+    "q_ss": 0.0
+  },
+  "model_reference_vascular": {
+    "tau_fast_s": 1.5,
+    "tau_recruit_s": 6.0,
+    "tau_delayed_s": 3.0,
+    "tau_vascular_s": 1.0,
+    "gain_fast": 0.75,
+    "gain_delayed": 0.25
+  },
+  "simulation_seeds": {
+    "protocols": 20261015,
+    "FIR": 20261018,
+    "M_test": 20261019,
+    "M_robustness": 20261020,
+    "S_robustness": 20261021,
+    "amplitude_calibration": 20261022
+  },
+  "numerical_caveat": "No physiological parameter calibration or clinical validation performed"
+}
